@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8078D8282356C60100B92319 /* NumericExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078D8272356C60100B92319 /* NumericExtensions.swift */; };
+		8078D82A2356CD8400B92319 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8078D8292356CD8400B92319 /* CurrencyModel.swift */; };
+		8081254D235636AC00A31A13 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8081254C235636AC00A31A13 /* StringExtensions.swift */; };
 		80F63F1B23554D240066FB6D /* ConvertMe WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 80F63F1A23554D240066FB6D /* ConvertMe WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		80F63F2123554D240066FB6D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F63F1F23554D240066FB6D /* Interface.storyboard */; };
 		80F63F2323554D260066FB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F63F2223554D260066FB6D /* Assets.xcassets */; };
 		80F63F2A23554D260066FB6D /* ConvertMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80F63F2923554D260066FB6D /* ConvertMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		80F63F2F23554D260066FB6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F2E23554D260066FB6D /* ContentView.swift */; };
 		80F63F3123554D260066FB6D /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F3023554D260066FB6D /* HostingController.swift */; };
 		80F63F3323554D260066FB6D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F3223554D260066FB6D /* ExtensionDelegate.swift */; };
 		80F63F3523554D270066FB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F63F3423554D270066FB6D /* Assets.xcassets */; };
 		80F63F3823554D270066FB6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F63F3723554D270066FB6D /* Preview Assets.xcassets */; };
+		80F63F4923554D440066FB6D /* CurrencyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F4823554D440066FB6D /* CurrencyListModel.swift */; };
+		80F63F4C235551B20066FB6D /* CurrencyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F4B235551B20066FB6D /* CurrencyList.swift */; };
+		80F63F50235557A80066FB6D /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F4F235557A80066FB6D /* DoubleExtensions.swift */; };
+		80F63F5223555D160066FB6D /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F5123555D160066FB6D /* CurrencyView.swift */; };
+		80F63F542355663C0066FB6D /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F532355663C0066FB6D /* IntExtensions.swift */; };
+		80F63F5623556EC90066FB6D /* TextExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F63F5523556EC90066FB6D /* TextExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,18 +69,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8078D8272356C60100B92319 /* NumericExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericExtensions.swift; sourceTree = "<group>"; };
+		8078D8292356CD8400B92319 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		8081254C235636AC00A31A13 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		80F63F1623554D240066FB6D /* ConvertMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConvertMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F63F1A23554D240066FB6D /* ConvertMe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ConvertMe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F63F2023554D240066FB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		80F63F2223554D260066FB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F63F2423554D260066FB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F63F2923554D260066FB6D /* ConvertMe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ConvertMe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80F63F2E23554D260066FB6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		80F63F3023554D260066FB6D /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		80F63F3223554D260066FB6D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		80F63F3423554D270066FB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F63F3723554D270066FB6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80F63F3923554D270066FB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F63F4823554D440066FB6D /* CurrencyListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListModel.swift; sourceTree = "<group>"; };
+		80F63F4B235551B20066FB6D /* CurrencyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyList.swift; sourceTree = "<group>"; };
+		80F63F4F235557A80066FB6D /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		80F63F5123555D160066FB6D /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
+		80F63F532355663C0066FB6D /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		80F63F5523556EC90066FB6D /* TextExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +134,11 @@
 		80F63F2D23554D260066FB6D /* ConvertMe WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				80F63F2E23554D260066FB6D /* ContentView.swift */,
-				80F63F3023554D260066FB6D /* HostingController.swift */,
-				80F63F3223554D260066FB6D /* ExtensionDelegate.swift */,
-				80F63F3423554D270066FB6D /* Assets.xcassets */,
-				80F63F3923554D270066FB6D /* Info.plist */,
+				80F63F4D2355522A0066FB6D /* App Files */,
+				80F63F4E235557980066FB6D /* Extensions */,
+				80F63F4723554D340066FB6D /* Models */,
 				80F63F3623554D270066FB6D /* Preview Content */,
+				80F63F4A2355519E0066FB6D /* Views */,
 			);
 			path = "ConvertMe WatchKit Extension";
 			sourceTree = "<group>";
@@ -134,6 +149,47 @@
 				80F63F3723554D270066FB6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80F63F4723554D340066FB6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80F63F4823554D440066FB6D /* CurrencyListModel.swift */,
+				8078D8292356CD8400B92319 /* CurrencyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		80F63F4A2355519E0066FB6D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80F63F4B235551B20066FB6D /* CurrencyList.swift */,
+				80F63F5123555D160066FB6D /* CurrencyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		80F63F4D2355522A0066FB6D /* App Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F63F3423554D270066FB6D /* Assets.xcassets */,
+				80F63F3223554D260066FB6D /* ExtensionDelegate.swift */,
+				80F63F3023554D260066FB6D /* HostingController.swift */,
+				80F63F3923554D270066FB6D /* Info.plist */,
+			);
+			path = "App Files";
+			sourceTree = "<group>";
+		};
+		80F63F4E235557980066FB6D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				80F63F4F235557A80066FB6D /* DoubleExtensions.swift */,
+				80F63F532355663C0066FB6D /* IntExtensions.swift */,
+				8078D8272356C60100B92319 /* NumericExtensions.swift */,
+				8081254C235636AC00A31A13 /* StringExtensions.swift */,
+				80F63F5523556EC90066FB6D /* TextExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F63F542355663C0066FB6D /* IntExtensions.swift in Sources */,
+				8078D8282356C60100B92319 /* NumericExtensions.swift in Sources */,
+				80F63F4923554D440066FB6D /* CurrencyListModel.swift in Sources */,
+				80F63F5223555D160066FB6D /* CurrencyView.swift in Sources */,
+				8081254D235636AC00A31A13 /* StringExtensions.swift in Sources */,
 				80F63F3123554D260066FB6D /* HostingController.swift in Sources */,
-				80F63F2F23554D260066FB6D /* ContentView.swift in Sources */,
+				80F63F5623556EC90066FB6D /* TextExtensions.swift in Sources */,
+				8078D82A2356CD8400B92319 /* CurrencyModel.swift in Sources */,
+				80F63F50235557A80066FB6D /* DoubleExtensions.swift in Sources */,
+				80F63F4C235551B20066FB6D /* CurrencyList.swift in Sources */,
 				80F63F3323554D260066FB6D /* ExtensionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ConvertMe WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 78CW4BPHYV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ConvertMe WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "ConvertMe WatchKit Extension/App Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,7 +505,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ConvertMe WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = 78CW4BPHYV;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "ConvertMe WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "ConvertMe WatchKit Extension/App Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
