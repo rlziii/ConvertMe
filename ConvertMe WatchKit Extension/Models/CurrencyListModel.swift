@@ -1,10 +1,12 @@
 import Foundation
 
-/// A model representing a list of currency models.
+/// A model representing a list of currency options.
 class CurrencyListModel: ObservableObject {
 
     // MARK: Data Properties
 
+    /// The currencies available from which to convert.
+    ///
     /// - Note: Rates retrieved from MSN Money on 2019-10-15T00:57:32Z.
     @Published var currencies: [CurrencyModel] = [
         CurrencyModel(code: "EUR", name: "Euro", flag: "🇪🇺", rate: 0.9070),

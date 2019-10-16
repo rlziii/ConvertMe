@@ -2,6 +2,7 @@ import SwiftUI
 
 // MARK: - View
 
+/// A view representing a list of currency options.
 struct CurrencyList: View {
     
     // MARK: Data Properties

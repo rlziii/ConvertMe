@@ -2,6 +2,7 @@ import SwiftUI
 
 // MARK: - View
 
+/// A view representing a currency converter (from USD to a specified currency).
 struct CurrencyView: View {
     
     // MARK: Data Properties
@@ -16,6 +17,7 @@ struct CurrencyView: View {
     private var conversion: Double {
         let leading = Double(integralPart)
         let trailing = Double(fractionalPart) / 100
+
         return (leading + trailing) * model.rate
     }
 
