@@ -13,6 +13,9 @@ struct CurrencyModel: Identifiable {
     /// The three-character ISO 4217 alphabetic code (i.e. currency designation).
     let code: String
 
+    /// The locale of the currency.
+    let locale: Locale
+
     /// The common name of the currency.
     let name: String
 

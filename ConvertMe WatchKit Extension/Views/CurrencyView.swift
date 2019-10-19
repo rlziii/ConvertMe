@@ -36,10 +36,7 @@ struct CurrencyView: View {
 
             Divider()
 
-            HStack(alignment: .center) {
-                Text(model.code).font(.headline)
-                Text(conversion.currencyString).font(.headline)
-            }
+            Text(conversion.currencyString(for: model.locale)).font(.headline)
         }.navigationBarTitle(Text(model.flag))
     }
 
